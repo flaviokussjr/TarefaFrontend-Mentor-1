@@ -1,0 +1,105 @@
+:root {
+    --color-primary: hsla(0, 0%, 100%, 0.75);
+    --color-secondary: hsl(0, 0%, 95%);
+}
+
+body {       
+        max-width: 1440px;
+        
+        
+}
+
+.container .boxes{
+    display: flex;
+    align-items: center;
+    padding: 40px;   
+}
+
+.container .boxes .tittle {
+    color: var(--color-secondary);
+}
+
+.container .boxes .sub-tittle {
+    color:var(--color-primary);
+}
+
+/*******************
+*     BOX-ORANGE
+********************/
+.container .boxes .box-orange {
+    background-color: hsl(31, 77%, 52%);
+    align-items: center;
+    width: 33%;
+    border-radius: 10px 0px 0px 10px;
+    padding: 50px;
+    font-size: 15px;
+}
+
+.container .box-orange .sub-tittle {
+    padding-bottom: 40px;
+}
+
+.container .boxes .button-orange {
+    color: var(--color-secondary);
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 30px 30px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px ;    
+}
+
+
+/*******************
+*     BOX-BLUE
+********************/
+
+.container .boxes .box-blue {
+    background-color: hsl(184, 100%, 22%);
+    align-items: center;
+    width: 33%;
+    padding: 50px;
+    font-size: 15px;
+}
+
+
+.container .box-blue .sub-tittle {
+    padding-bottom: 40px;
+}
+
+.container .boxes .button-blue {
+    color: var(--color-secondary);
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 30px 30px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+/*******************
+*     BOX-GREEN
+********************/
+
+.container .boxes .box-green {
+    background-color: hsl(179, 100%, 13%);
+    align-items: center;
+    width: 33%;
+    padding: 50px;
+    font-size: 15px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.container .box-green .sub-tittle {
+    padding-bottom: 40px;
+}
+
+.container .boxes .button-green {
+    color: var(--color-secondary);
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 30px 30px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px;
+}
